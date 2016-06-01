@@ -1,0 +1,155 @@
+.ulSect{
+	margin-top: 13%;
+	position: relative;
+}
+
+.ulSect>li{
+	position: relative;
+	box-sizing: border-box;
+	padding: 30% 0;
+	width: 100%;
+}
+.ulSect>li > div {
+	position: absolute;
+}
+.ulSect>li:nth-of-type(1){
+	background: url(../img/lou1.png) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 10%;
+}
+.ulSect>li:nth-of-type(2){
+	background: url(../img/lou2.png) no-repeat;
+	background-size: 100% 100%;
+	padding-left: 10%;
+}
+.ulSect>li:nth-of-type(3){
+	background: url(../img/lou3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.ulSect>li:nth-of-type(4){
+	background: url(../img/lou4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.ulSect>li:nth-of-type(5){
+	background: url(../img/lou5.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.ulSect>li>div{
+	position: absolute;
+}
+.ulSect>li h2{
+	display: inline-block;
+	padding: 5px;
+	background-color: #cfdb00;
+}
+
+.sect1 div {
+	top: 25%;
+	width: 50%;
+}
+.sect1>ul>li {
+	width: 10%;
+	bottom: 8%;
+	position: absolute;
+}
+.sect1>ul>li:nth-of-type(1) {
+	margin-left: 2%;
+	z-index: 3;
+}
+.sect1>ul>li:nth-of-type(2) {
+	margin-left: 11%;
+	z-index: 2;
+}
+.sect1>ul>li:nth-of-type(3) {
+	margin-left: 19%;
+	z-index: 1;
+}
+
+.sect2 div {
+	top: 25%;
+	width: 50%;
+}
+.sect2>ul>li {
+	width: 14%;
+	margin-top: 10%;
+	position: absolute;
+}
+.sect2>ul>li:nth-of-type(2) {
+	margin-left: 15%;
+}
+
+.sect3 div {
+	margin-left: 40%;
+	top: 25%;
+	width: 45%;
+}
+.sect3>ul>li {
+	width: 14%;
+	margin-top: 10%;
+	position: absolute;
+}
+.sect3>ul>li:nth-of-type(1) {
+	margin-left: 40%;
+}
+.sect3>ul>li:nth-of-type(2) {
+	margin-left: 55%;
+}
+
+.sect4 div {
+	margin-left: 25%;
+	width: 55%;
+	top: 25%;
+}
+.sect4>ul>li {
+	width: 14%;
+	margin-top: 10%;
+	position: absolute;
+}
+.sect4>ul>li:nth-of-type(1) {
+	margin-left: 25%;
+	bottom: 30%;
+}
+.sect4>ul>li:nth-of-type(2) {
+	margin-left: 25%;
+	bottom: 15%;
+}
+
+.sect5 div {
+	top: 25%;
+	width: 50%;
+	margin-left: 10%;
+}
+.sect5>ul>li {
+	width: 14%;
+	margin-top: 10%;
+	position: absolute;
+}
+.goTop {
+	display: inline-block;
+	width: 5%;
+	position: absolute;
+	bottom: 0;
+	margin-left: 47.5%;
+	opacity: 0.7;
+}
+.goTop:hover{
+	opacity: 1;
+}
+
+@media only screen and (min-width: 750px){
+.ulSect>li h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+}
+@media only screen and (max-width: 750px){
+.ulSect>li h2 {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+.ulSect>li p {
+	line-height: 1.0rem;
+	font-size: 1.0rem;
+}
+}

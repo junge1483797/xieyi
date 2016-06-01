@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>写意</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	</head>
+	<body>
+	<nav class="clearfix">
+		<div class="nav">
+	      <div class	="head clearfix">
+	        <div class="logo">
+	          <img src="img/logo.png" alt=""/>
+	        </div>
+	        <button class="block">menu</button>
+	        <div class="menu">
+	          <ul class="nav1 clearfix">
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="about.html">ABOUT</a></li>
+	            <li><a href="renderings.html">Renderings</a></li>
+	            <li><a href="bim.html">BIM</a></li>
+	            <li class="liColor"><a  href="javascript:void(0);">3D Animate</a></li>
+	            <li><a href="contatc.html">Contact</a></li>
+	          </ul>
+	        </div>  
+	      </div>
+	    </div>
+   	</nav>
+   	
+   	<header>
+   		<div class="ming">
+	   		<div class="line lineWidth"></div>
+	   		<h2>3D ANIMATE</h2>
+	   		<div class="line lineWidth"></div>
+   		</div>
+   		<section class="animtes">
+   			<div class="video">
+   				<video class="videoPlay">
+   					<source src="video/Corning.mp4" type="video/mp4"></source>
+   				</video>
+   			</div>
+   			<div class="animte1">
+   				<div class="bgTu"><img src="img/tu4.png" alt="" /></div>	
+   				<a href="javascript:void(0);" id="bt"><img src="img/play.png" alt="" /></a>
+   				<div class="jianjie">
+   					<h2>3D ANIMATE</h2>
+   					<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="videos">
+   			<ul class="clearfix">
+   				<li class="list1 clearfix">
+   					<div class="video1">
+   						<div class="video1-1"></div>
+   						<div><img src="img/tu5.png" alt="" /></div>
+   						<a href="javascript:void(0);" class="bt1"><img src="img/play.png" alt="" /></a>
+   					</div>
+   					<div>
+   						<h3>3D ANIMATE</h3>
+   						<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   					</div>
+   				</li>
+   				<li class="list2 clearfix">
+   					<div class="video2">
+   						<div class="video2-1"></div>
+   						<div><img src="img/tu6.png" alt="" /></div>
+   						<a href="javascript:void(0);" class="bt2"><img src="img/play.png" alt="" /></a>
+   					</div>
+   					<div>
+   						<h3>3D ANIMATE</h3>
+   						<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   					</div>
+   				</li>
+   				<li class="list3 clearfix">
+   					<div class="video3">
+   						<div class="video3-1"></div>
+   						<div><img src="img/tu7.png" alt="" /></div>
+   						<a href="javascript:void(0);" class="bt3"><img src="img/play.png" alt="" /></a>
+   					</div>
+   					<div>
+   						<h3>3D ANIMATE</h3>
+   						<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   					</div>
+   				</li>
+   				<li class="list4 clearfix">
+   					<div class="video4">
+   						<div class="video4-1"></div>
+   						<div><img src="img/tu6.png" alt="" /></div>
+   						<a href="javascript:void(0);" class="bt4"><img src="img/play.png" alt="" /></a>
+   					</div>
+   					<div>
+   						<h3>3D ANIMATE</h3>
+   						<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   					</div>
+   				</li>
+   				<li class="list5 clearfix">
+   					<div class="video5">
+   						<div class="video5-1"></div>
+   						<div><img src="img/tu7.png" alt="" /></div>
+   						<a href="javascript:void(0);" class="bt5"><img src="img/play.png" alt="" /></a>
+   					</div>
+   					<div>
+   						<h3>3D ANIMATE</h3>
+   						<p>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comn</p>
+   					</div>
+   				</li>
+   			</ul>
+   			<a href="javascript:void(0)" class="goTop"><img src="img/top.png"/></a>
+   		</section>
+   		<div class="foot">
+   			<div class="ming">
+	   			<div class="line lineWidth"></div>
+	   			<h2>OUR SERVICE</h2>
+	   			<div class="line lineWidth"></div>
+   			</div>
+   			<div class="lianxi">
+   				<img src="img/lianxi.png" alt="" />
+   			</div>
+   		</div>
+   	</header>
+   	
+   	<footer>
+   		<p>Copyright © 1998-2015 shining Group</p>
+   	</footer>
+   	
+   	<script type="text/javascript" src="js/jquery.min.js"></script>
+   	<script type="text/javascript" src="js/nav.js"></script>	
+   	<script type="text/javascript">
+   		$("#bt").on("click",function(){
+   			$(".animte1").hide();
+   			$(".video").show();
+   			$(".videoPlay").attr("controls","controls");
+			$(".videoPlay").get(0).play();
+   		})
+   	</script>
+	</body>
+</html>

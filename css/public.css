@@ -1,0 +1,446 @@
+html,body{
+	height: 100%;
+}
+body {
+	background-color: #b4b4b4;
+}
+header {
+	background-color: #f5f5f5;
+}
+.nav {
+	width: 100%;
+	border-bottom: 2px solid #c8c8c8;
+	box-shadow: 0 2px 2px #d5d5d5;
+	position: fixed;
+	z-index: 20;
+	background-color: #fff;
+}
+
+.logo{
+	width: 180px;
+	float: left;
+}
+.liColor {
+	background-color: #cfdb00;
+}
+
+.menu li a{
+	display: block;	
+	color:#1e1e1e;
+}
+.block:hover{
+	background-color: #cfdb00;
+}
+
+@media only screen and (min-width: 1360px) {
+nav{
+	height: 68px;
+}
+.head{
+	width: 1366px;
+	margin: 0 auto;
+}
+.logo {
+	margin: 14px 0;
+}
+.menu {
+	width: 660px;
+	float: right;
+	display: block;
+}
+
+.menu li{
+	height: 68px;
+	width: 110px;
+	line-height: 68px;
+	float: left;
+	text-align: center;
+}
+.block {
+	display: none;
+}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1360px) {
+nav {
+	height: 68px;
+}
+.head{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo {
+	margin: 14px 0;
+}
+.menu {
+	width: 420px;
+	float: right;
+	display: block;
+}
+
+.menu li{
+	height: 68px;
+	width: 70px;
+	line-height: 68px;
+	float: left;
+	text-align: center;
+}
+.block {
+	display: none;
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+nav {
+	height: 41px;
+}
+.head{	
+	margin-left: 30px; 
+}
+.logo {
+	width: 120px;
+	margin: 7px 0;
+}
+.menu {
+	width: 100%;
+	position:absolute;
+	top: 45px;
+	left: 0;
+	display: none;
+}
+
+.nav1 {
+	width: 100%;
+	background-color: #fff;
+}
+.nav1 li {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	height: 25px;
+	text-indent: 30px;
+	line-height: 25px;
+}
+.block {
+	height: 100%;
+	border: 0;
+	background-color: #fff;
+	outline: none;
+	position: absolute;
+	right: 30px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+nav{
+	height: 34px;
+}
+.head{
+	margin-left: 20px;
+}
+.logo {
+	width: 90px;
+	margin: 7px 0;
+}
+.menu {
+	width: 100%;
+	display: none;
+	position:absolute;
+	top: 38px;
+	left: 0;
+}
+.nav1 {	
+	width: 100%;
+	background-color: #fff;
+}
+.nav1 li {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	height: 25px;
+	text-indent: 20px;
+	line-height: 25px;
+}
+.block {
+	height: 100%;
+	border: 0;
+	background-color:#fff;
+	outline: none;
+	position: absolute;
+	right: 10px;
+}
+}
+
+/*图片部分*/
+.ming {
+	text-align: center;
+}
+.ming .line {
+	border-bottom: 1px solid  #cfdb00;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ming h2 {
+	display: inline-block;
+	margin: 0 5px;	
+}
+/*.ming .lineRight {
+	width: 90px;
+	border-bottom: 1px solid  #cfdb00;
+	display: inline-block;
+	vertical-align: middle;
+}*/
+.shili .tu{
+	float: left;
+}
+
+
+.shiji .maxDiv{
+	display: block;
+}
+.shili .section{
+	float: left;
+}
+/*.textRight {
+	text-align: right;
+}*/
+.shili {
+	border-bottom: 1px solid #bfbfbf;
+	border-top: 1px solid #bfbfbf;
+	color: #d8d8d8;
+	
+}
+
+.gray {
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%); 
+	filter: gray;
+}
+
+
+.textColor {
+	color: #3c3c3c; 
+}
+.shili li:nth-of-type(2n){
+	border-bottom: 1px solid #bfbfbf;
+	border-top: 1px solid #bfbfbf;
+}
+.foot{
+	background-color: #fff;
+}
+.lianxi{
+	margin: 0 auto;
+}
+footer{
+	background-color: #b4b4b4;
+	color: #fff;
+	border-top:  2px solid #cfdb00;
+	text-align: center;
+}
+@media only screen and (min-width: 1360px){
+header{
+	padding-top: 70px;
+}
+.ming {
+	margin-top: 70px;
+	font-size: 25px; 
+}
+.lineWidth {
+	width: 150px;
+}
+.shili{
+	width:1030px;
+	margin: 75px auto 150px;
+}
+.shili li:nth-of-type(2) {
+	text-align: right;
+}
+.shili .tu {
+	width:670px; 
+}
+.shili .borRight {
+	border-right: 20px solid #cfdb00;
+}
+.shili .borLeft {
+	border-Left: 20px solid #cfdb00;
+	float: right;
+}
+.section {
+	width: 320px;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.section h2{
+	font-size: 28px;
+	line-height: 28px;
+	margin-top: 15%;
+	margin-bottom: 15px;
+}
+
+.foot{
+	padding: 1px 0 95px 0;
+}
+.lianxi {
+	width:400px;
+	margin-top: 90px;
+	/*margin-bottom: 95px;*/
+}
+footer {
+	height: 65px;
+	line-height: 65px;
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1360px){
+header{
+	padding-top: 50px;
+}
+.ming {
+	margin-top: 70px;
+	font-size: 25px; 
+}
+.lineWidth{
+	width: 120px;
+}
+.shili{
+	width:900px;
+	margin: 75px auto 150px;
+}
+.shili li:nth-of-type(2) {
+	text-align: right;
+}
+.shili .tu {
+	width:600px; 
+}
+.shili .borRight {
+	border-right: 20px solid #cfdb00;
+}
+.shili .borLeft {
+	border-Left: 20px solid #cfdb00;
+	float:right;
+}
+.section {
+	width: 270px;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.section h2{
+	font-size: 28px;
+	line-height: 28px;
+	margin-top: 10%;
+	margin-bottom: 15px;
+}
+
+.foot{
+	padding: 1px 0 95px 0;
+}
+.lianxi {
+	width:400px;
+	margin-top: 90px;
+	/*margin-bottom: 95px;*/
+}
+footer {
+	height: 65px;
+	line-height: 65px;
+	font-size: 20px;
+}	
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+header{
+	padding-top: 40px;
+}
+.ming {
+	margin-top: 40px;
+	font-size: 20px; 
+}
+.lineWidth {
+	width: 100px;
+}
+.shili{
+	width:90%;
+	margin: 75px auto 90px;
+}
+.shili li:nth-of-type(2) {
+	text-align: right;
+}
+.shili .tu {
+	width:70%; 
+	box-sizing: border-box;
+}
+.shili .borRight {
+	border-right: 5px solid #cfdb00;
+}
+.shili .borLeft {
+	border-Left: 5px solid #cfdb00;
+	float: right;
+}
+
+.section {
+	width: 30%;
+	max-height: 160px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.section h2{
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 10%;
+	margin-bottom: 5px;
+}
+
+.foot{
+	padding: 1px 0 60px 0;
+}
+.lianxi {
+	width:300px;
+	margin-top: 60px;
+}
+footer {
+	height: 65px;
+	line-height: 65px;
+	font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 750px){
+header{
+	padding-top: 5%;
+}
+.ming {
+	margin-top: 10%;
+	font-size: 1.6rem; 
+}
+.lineWidth {
+	width: 80px;
+}
+.shili{
+	width:90%;
+	margin: 10% auto 10%;
+}
+.shili li:nth-of-type(2) {
+	text-align: left;
+}
+.section {
+	margin-bottom: 5%;
+}
+.section h2{
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	margin-top: 5%;
+	margin-bottom: 10px;
+}
+
+.foot{
+	padding: 1px 0 10% 0;
+}
+.lianxi {
+	width:200px;
+	margin-top: 10%;
+}
+footer {
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.2rem;
+}
+}
+

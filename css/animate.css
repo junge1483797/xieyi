@@ -1,0 +1,172 @@
+header {
+	background-color: #fff;
+}
+.animtes {
+	position: relative;
+	width: 83%;
+	padding: 23.35% 0;
+	margin: 8% auto 0;
+}
+
+.animtes .video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.videoPlay{
+	width: 100%;
+	/*height: 100%;*/
+}
+.animte1 {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.animte1 .bgTu {
+	width: 100%;
+	height: 100%;
+}
+.animte1 .bgTu img {
+	width: 100%;
+	height: 100%;
+}
+.animte1 #bt {
+	width: 8%;
+	position: absolute;
+	top: 50%;
+	margin-left: 46%;
+	display: inline-block;
+}
+.animte1 .bt:hover {
+	box-shadow: 0 0 5px #cfdb00;
+	border-radius: 20%;
+} 
+.animte1 .bt:active{
+	background-color: #cfdb00;
+	border-radius: 20%;
+}
+.jianjie {
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.6;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+.videos {
+	position: relative;
+	background-color: #f5f5f5;
+	margin-top: 5%;
+	padding-bottom: 7%;
+}
+
+.videos ul {
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.videos ul>li {
+	width: 100%;	
+	margin: 5% 0 0;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+
+.videos li a{
+	position: absolute;
+	top: 50%;
+	margin-top: -5%;
+	margin-left: 45%;
+	display: inline-block;
+	width: 10%;
+}
+.videos li>div:nth-of-type(2){
+	box-sizing: border-box;
+	padding: 5% 4% 0 4% ;
+}
+.videos li>div {
+	position: relative;
+	margin-bottom: 5%;
+}
+
+.goTop {
+	display: inline-block;
+	width: 5%;
+	position: absolute;
+	bottom: 0;
+	margin-left: 47.5%;
+	opacity: 0.7;
+}
+
+
+@media only screen and (min-width: 750px) {
+.jianjie h2 {
+	font-size: 25px;
+}
+.jianjie p {
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.videos li>div {
+	width: 50%;
+}
+
+.videos li:nth-of-type(2n+1)>div:nth-of-type(1){
+	float: left;
+}
+.videos li:nth-of-type(2n+1)>div:nth-of-type(2){
+	float: right;
+}
+
+.videos li:nth-of-type(2n)>div:nth-of-type(1){
+	float: right;
+}
+.videos li:nth-of-type(2n)>div:nth-of-type(2){
+	float: left;
+	text-align: right;
+}
+
+.videos li>div:nth-of-type(2) h3{
+	font-size: 20px;
+}
+.videos li>div:nth-of-type(2) p{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+
+}
+@media only screen and (max-width: 750px) {
+.jianjie h2 {
+	font-size: 1.2rem;
+}
+.jianjie p {
+	font-size: 1.0rem;
+	line-height: 1.0rem;
+}
+
+.videos li {
+	width: 100%;	
+	/*float: left;*/
+}
+.videos li>div {
+	width: 100%;
+}
+
+.videos li>div:nth-of-type(2) h3{
+	font-size: 1.2rem;
+}
+.videos li>div:nth-of-type(2) p{
+	font-size: 1.0rem;
+	line-height: 1.0rem;
+}
+}
