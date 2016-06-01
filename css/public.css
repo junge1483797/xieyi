@@ -406,6 +406,9 @@ footer {
 header{
 	padding-top: 5%;
 }
+.block {
+	font-size: 1.2rem
+}
 .ming {
 	margin-top: 10%;
 	font-size: 1.6rem; 
@@ -440,7 +443,7 @@ header{
 footer {
 	height: 40px;
 	line-height: 40px;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 }
 
