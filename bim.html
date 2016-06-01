@@ -143,58 +143,58 @@
    	mousewheel(document,up,down);
    	
    	function up(){
-   		console.log("shang");
+// 		console.log("shang");
    		var sTop = $(document).scrollTop();
    		if(sTop < pos($(".sect1").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:0
    			})
    		}
-   		if(sTop >= pos($(".sect1").get(0)) && sTop < pos($(".sect2").get(0))){
+   		if(sTop > pos($(".sect1").get(0)) && sTop < pos($(".sect2").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect1").get(0))
    			})
    		}
-   		if(sTop >= pos($(".sect2").get(0)) && sTop < pos($(".sect3").get(0))){
+   		if(sTop > pos($(".sect2").get(0)) && sTop < pos($(".sect3").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect2").get(0))
    			})
    		}
-   		if(sTop >= pos($(".sect3").get(0)) && sTop < pos($(".sect4").get(0))){
+   		if(sTop > pos($(".sect3").get(0)) && sTop < pos($(".sect4").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect3").get(0))
    			})
    		}
-   		if(sTop >= pos($(".sect4").get(0))){
+   		if(sTop > pos($(".sect4").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect4").get(0))
    			})
    		}
    	}
    	function down(){
-   		console.log("xia")
+// 		console.log("xia")
    		var sTop = $(document).scrollTop();
    		if(sTop < pos($(".sect1").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect1").get(0))
    			})
    		}
-   		if(sTop > pos($(".sect1").get(0)) && sTop <= pos($(".sect2").get(0))){
+   		if(sTop > pos($(".sect1").get(0)) && sTop < pos($(".sect2").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect2").get(0))
    			})
    		}
-   		if(sTop > pos($(".sect2").get(0)) && sTop <= pos($(".sect3").get(0))){
+   		if(sTop > pos($(".sect2").get(0)) && sTop < pos($(".sect3").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect3").get(0))
    			})
    		}
-   		if(sTop > pos($(".sect3").get(0)) && sTop <= pos($(".sect4").get(0))){
+   		if(sTop > pos($(".sect3").get(0)) && sTop < pos($(".sect4").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect4").get(0))
    			})
    		}
-   		if(sTop > pos($(".sect4").get(0)) && sTop <= pos($(".sect5").get(0))){
+   		if(sTop > pos($(".sect4").get(0)) && sTop < pos($(".sect5").get(0))){
    			$("html,body").stop().animate({
    				scrollTop:pos($(".sect5").get(0))
    			})
