@@ -129,7 +129,6 @@
 	margin-top: 10%;
 	width: 90%;
 	padding: 20% 0;
-	/*height: 463px;*/
 }
 .swip {
 	width: 360%;
@@ -144,5 +143,8 @@
 
 .tuji li div{
 	font-size: 1.0rem;
+}
+.line {
+	width: 8%;
 }
 }
